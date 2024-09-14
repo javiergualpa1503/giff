@@ -1,10 +1,10 @@
 import { useState } from "react"
-import { Input } from "./Input"
-import { Grid } from "./Grid"
+import { Input } from "./components/Input"
+import { Grid } from "./components/Grid"
 
 export const App = () => {
 
-  const [categories, setCategories] = useState(['Pokemon'])
+  const [categories, setCategories] = useState(['Dragon Ball'])
 
   const addCategories = (newCategorie) => {
     if (categories.includes(newCategorie)) return
